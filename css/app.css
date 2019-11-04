@@ -32,6 +32,8 @@ body {
 .authorizationParameter_value {
     margin: 0;
     font-family: "Hack", monospace;
+    word-break: break-word;
+    white-space: normal;
 }
 .authorizationParameter + .authorizationParameter {
     margin-top: 20px;
