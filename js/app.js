@@ -40,7 +40,7 @@
 
     // Obtain an object containing the query parameters of the current location
     var lCurrentLocationQueryParameters = lGetCurrentLocationQueryParameters();
-    if ( Object.keys( lCurrentLocationQueryParameters ) > 0 ){
+    if ( Object.keys( lCurrentLocationQueryParameters ).length > 0 ){
         // Traverse the object elements by key
         for ( var lKey in lCurrentLocationQueryParameters ) {
             // Append an authorization parameter element per key to the document's body
