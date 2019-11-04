@@ -1,0 +1,43 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.authorizationParametersContainer {
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    padding: 10px;
+    margin: 0 auto;
+}
+.authorizationParametersContainer_header {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.authorizationParameter {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+}
+.authorizationParameter_name {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.authorizationParameter_value {
+    margin: 0;
+    font-family: "Hack", monospace;
+}
+.authorizationParameter + .authorizationParameter {
+    margin-top: 20px;
+}
+
+.noAuthorizationParametersFound {
+    text-align: center;
+    color: #777;
+}
